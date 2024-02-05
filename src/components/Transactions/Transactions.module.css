@@ -1,0 +1,22 @@
+.transactionHistory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-collapse: collapse;
+}
+
+table .transactionHistory {
+  table-layout: fixed;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+thead tr th {
+  width: 50%;
+  padding: 8px;
+}
